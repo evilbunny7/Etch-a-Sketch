@@ -1,15 +1,69 @@
 #grid-container {
     display: flex;
     flex-wrap: wrap;
+    
+   
+    justify-content: center;
+    
+    
+    
   }
   
-  .row {
-    display: flex;
-  }
+
   
   .col {
-    width: 20px;
-    height: 20px;
+    box-sizing: border-box;
+    width: 35px;
+    height: 35px;
     border: 1px solid black;
   }
+
+  .col32 {
+    box-sizing: border-box;
+    width: 18px;
+    height: 18px;
+    border: 1px solid black;
+  }
+
+
+  .col64 {
+    box-sizing: border-box;
+    width: 9px;
+    height: 9px;
+    border: 1px solid black;
+  }
+
+  
+
+  #inputs{
+
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    
+    align-content: center;
+   
+    
+  }
+
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  button:active {
+    background-color: #1e421e;
+  }
+  
   
